@@ -1,9 +1,6 @@
 *.gem
 *.rbc
-<<<<<<< HEAD
 .svn
-=======
->>>>>>> 1a6bbc7ffc105bdb32b2889c7d628dbc25f57eae
 .bundle
 .config
 .yardoc
