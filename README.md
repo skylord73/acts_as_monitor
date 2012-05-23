@@ -18,29 +18,29 @@ Or install it yourself as:
     $ gem install acts_as_monitor
 
 ## Usage
-  #app/models/user.rb
-  class User < ActiveRecord::Base
-    acts_as_monitor
+    #app/models/user.rb
+    class User < ActiveRecord::Base
+      acts_as_monitor
     
-    ... your code ...
+      ... your code ...
     
-    private
+      private
     
-    def warn_stange?
-      ... do some checks and return true or false
-      true
+      def warn_stange?
+        ... do some checks and return true or false
+        true
+      end
+    
+      def warn_not_now?
+        ... do some checks and return true or false
+        false
+      end
+    
+      def error_terrible?
+        ... do some checks and return true or false
+        true
+      end
     end
-    
-    def warn_not_now?
-      ... do some checks and return true or false
-      false
-    end
-    
-    def error_terrible?
-      ... do some checks and return true or false
-      true
-    end
-  end
 
 You can now check the status of your model using the following code:
   @user = User.new
