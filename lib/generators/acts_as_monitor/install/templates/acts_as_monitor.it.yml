@@ -1,0 +1,5 @@
+it:
+  acts_as_monitor:
+    red: acts_as_monitor_red.png
+    yellow: acts_as_monitor_yellow.png
+    green: acts_as_monitor_green.png
