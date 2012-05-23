@@ -1,6 +1,8 @@
 require 'test_helper'
 
 class ActsAsMonitorTest < ActiveSupport::TestCase
+  include ActionView::Helpers
+  include ActsAsMonitor::Helper
   
   test "Methods exists!" do
     @test_class = TestClass.new
@@ -32,5 +34,10 @@ class ActsAsMonitorTest < ActiveSupport::TestCase
     assert @test_class.status == {:warn => [:warn_test? ], :error => [:error_test? ]}, "Error: #{@test_class.status.inspect}"
     assert @test_class.status_flag == :red , "Error: #{@test_class.status_flag.inspect}"
   end
+  
+  test "monitor_tag exists" do
+    assert monitor_tag(TestClass.new) == "" , "fail monitor tag :#{monitor_tag(TestClass.new)}"
+  end
+  
   
 end

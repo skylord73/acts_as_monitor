@@ -2,6 +2,7 @@ require 'test/unit'
 require 'active_record'
 require 'action_controller'
 require 'action_controller/test_case'
+require 'action_view/test_case'
 require 'acts_as_monitor'
 
 config = YAML::load(IO.read(File.dirname(__FILE__) + '/database.yml'))

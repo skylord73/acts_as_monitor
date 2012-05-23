@@ -1,7 +1,7 @@
 # ActsAsMonitor
 
-Provide a way to monitor the status of a model
-then health of the model is checked by private method, defined by user
+Provide a way to monitor the status of a model.
+The health of the model is checked by private method, defined by user
 
 ## Installation
 

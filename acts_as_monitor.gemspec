@@ -7,12 +7,12 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Monitor model via private methods warn_*? and error_*?}
   gem.summary       = %q{Monitor models }
 
-  gem.files         = `git ls-files`.split($\)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "acts_as_monitor"
-  gem.require_paths = ["lib"]
-  gem.version       = ActsAsMonitor::VERSION
+  gem.files               = `git ls-files`.split($\)
+  gem.executables     = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
+  gem.test_files        = gem.files.grep(%r{^(test|spec|features)/})
+  gem.name              = "acts_as_monitor"
+  gem.require_paths   = ["lib"]
+  gem.version           = ActsAsMonitor::VERSION
   
   gem.add_dependency "rails", "3.0.9"
   
