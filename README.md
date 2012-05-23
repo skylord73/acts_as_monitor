@@ -18,8 +18,7 @@ Or install it yourself as:
     $ gem install acts_as_monitor
 
 ## Usage
-
-[app/models/user.rb]
+  #app/models/user.rb
   class User < ActiveRecord::Base
     acts_as_monitor
     
