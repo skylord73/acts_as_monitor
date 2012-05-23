@@ -6,7 +6,6 @@ Gem::Specification.new do |gem|
   gem.email         = ["skylord73@gmail.com"]
   gem.description   = %q{Monitor model via private methods warn_*? and error_*?}
   gem.summary       = %q{Monitor models }
-  gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
