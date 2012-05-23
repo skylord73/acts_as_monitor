@@ -43,13 +43,13 @@ Or install it yourself as:
     end
 
 You can now check the status of your model using the following code:
-  @user = User.new
-  
-  @user.status
-  > {:warn => [:warn_strange?], :error => [:error_terrible?]}
-  
-  @user.status_flag
-  > :red
+    @user = User.new
+    
+    @user.status
+    > {:warn => [:warn_strange?], :error => [:error_terrible?]}
+    
+    @user.status_flag
+    > :red
 
 ## Contributing
 
