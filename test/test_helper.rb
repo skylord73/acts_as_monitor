@@ -20,6 +20,9 @@ ActiveRecord::Schema.define(:version => 0) do
     end
 
   end
+  
+class TestClassNoMonitor 
+end
 
 class TestClass < ActiveRecord::Base
   acts_as_monitor

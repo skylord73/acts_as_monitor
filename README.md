@@ -16,6 +16,10 @@ And then execute:
 Or install it yourself as:
 
     $ gem install acts_as_monitor
+    
+Copy icons and other files
+
+    rails g acts_as_monitor:install
 
 ## Usage
     #app/models/user.rb
@@ -50,6 +54,11 @@ You can now check the status of your model using the following code:
     
     @user.status_flag
     > :red
+    
+You can use the monitor_tag helper to view a red/green/yellow rapresentation:
+    #app/views/users/index.html.erb
+    ...
+    <%= monitor_tag(@user) %>
 
 ## Contributing
 
