@@ -1,15 +1,15 @@
-require "acts_as_monitor/version"
-require "acts_as_monitor/monitor"
-require File.dirname(__FILE__) + '/../app/helpers/monitor_helper'
+require "active_support/dependencies"
 
 module ActsAsMonitor
-  class MissingMethod < StandardError
-    def message
-      I18n.t(:missing_method, :scope => "acts_as_monitor.errors", :default => "Add acts_as_monitor to your class")
-    end
+  mattr_accessor :app_root
+
+  def self.setup
+    yield self
   end
-  
-  #Include my Helper to ActionView (as they where in application_helper)
-  ActionView::Base.send :include, ActsAsMonitor::Helper
 
 end
+
+require "acts_as_monitor/engine"
+#require "acts_as_monitor/version"
+require "acts_as_monitor/monitor"
+require "acts_as_monitor/exceptions"

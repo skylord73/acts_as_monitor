@@ -1,0 +1,2 @@
+class TestClassNoMonitor 
+end

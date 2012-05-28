@@ -1,0 +1,8 @@
+<p>Home Page</p>
+<%= javascript_include_tag :defaults %>
+<%= monitor_tag_js %>
+<ul>
+<% TestClass.all.each do |u| %>
+<li><p><%= u.name %></p><p><%= u.status_flag %></p><%=monitor_tag(u) %></li>
+<% end %>
+</ul>

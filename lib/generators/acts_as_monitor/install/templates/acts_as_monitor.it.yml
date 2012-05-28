@@ -7,3 +7,7 @@ it:
       alt_image: "Clicca per visualizzare i dettagli"
     errors:
       missing_method: "Aggiungi acts_as_monitor alla classe da monitorare"
+    messages:
+      #test_clas:                     #class name
+        #warn_test: "Warning Test"    #warning method name
+        #error_test: "Error Test"     #error method name
