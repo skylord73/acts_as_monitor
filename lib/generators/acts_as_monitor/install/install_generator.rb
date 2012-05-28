@@ -5,7 +5,7 @@ module ActsAsMonitor
     source_root File.expand_path("../templates", __FILE__)
       
     def copy_icons
-      icons = ["acts_as_monitor_green.png", "acts_as_monitor_red.png", "acts_as_monitor_yellow.png"]
+      icons = ["acts_as_monitor_green.png", "acts_as_monitor_red.png", "acts_as_monitor_yellow.png", "acts_as_monitor_loading.gif"]
       icons.each do |icon| 
         destination = "public/images/" + icon
         copy_file icon, destination

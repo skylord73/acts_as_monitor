@@ -11,6 +11,7 @@ module ActsAsMonitorHelper
   end
 
   def monitor_tag_js()
+    content_tag(:div, "/#{Rails.root.to_s.split('/').last}", :id => 'acts_as_monitor_status_window') +
     javascript_include_tag("acts_as_monitor_javascript.js") + 
     stylesheet_link_tag('acts_as_monitor.css')
   end
