@@ -4534,3 +4534,4 @@ true
 DEPRECATION WARNING: human_name has been deprecated, please use model_name.human instead. (called from __home_apps_rails_apps_gems_acts_as_monitor_app_views_acts_as_monitor_monitors_show_html_erb___260985504__616371298_0 at /home/apps/rails_apps/gems/acts_as_monitor/app/views/acts_as_monitor/monitors/show.html.erb:3)
 Rendered /home/apps/rails_apps/gems/acts_as_monitor/app/views/acts_as_monitor/monitors/show.html.erb (5.2ms)
 Completed 200 OK in 36ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /home/apps/rails_apps/gems/acts_as_monitor/test/dummy/app/controllers/application_controller.rb:1)

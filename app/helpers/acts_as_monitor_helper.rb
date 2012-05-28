@@ -10,7 +10,7 @@ module ActsAsMonitorHelper
                     'data-class' => object.class.name, 'data-id' => object.id
   end
 
-  def monitor_tag_js(style = 'default.css')
+  def monitor_tag_js()
     javascript_include_tag("acts_as_monitor_javascript.js") + 
     stylesheet_link_tag('acts_as_monitor.css')
   end
