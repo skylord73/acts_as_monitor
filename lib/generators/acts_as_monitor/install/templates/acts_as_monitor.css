@@ -2,6 +2,7 @@
   background-color: #F2F2F2;
   border: solid black 1px;
   opacity: 0.9;
+  width: 150px;
 }
 
 .acts_as_monitor_status_window legend{
@@ -14,20 +15,24 @@
   
 }
 
-.acts_as_monitor_status_window h2.acts_as_monitor_errors_title{
+.acts_as_monitor_status_window h3.acts_as_monitor_errors_title{
   font-weight: normal;
   background-color: red;
   text-align: center;
   padding-left: 5px;
   padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
-.acts_as_monitor_status_window h2.acts_as_monitor_warnings_title{
+.acts_as_monitor_status_window h3.acts_as_monitor_warnings_title{
   font-weight: normal;
   background-color: #FACC2E;
   text-align: center;
   padding-left: 5px;
   padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .acts_as_monitor_status_window ul{

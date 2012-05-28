@@ -57,8 +57,30 @@ You can now check the status of your model using the following code:
     
 You can use the monitor_tag helper to view a red/green/yellow rapresentation:
     #app/views/users/index.html.erb
+    <%= monitor_tag_js %>     #Creates hidden div and load css and javascript
     ...
     <%= monitor_tag(@user) %>
+    
+Clicking to Icon you receive via Ajax the full error/warning list
+
+## Internationalization
+You can localize the output modifing the acts_as_monitor.it.yml, or cloning for the language you prefear.
+Name of models is retrived via human_name, so yuo have to localize the ActiveRecord to change names:
+    it:
+      activerecord:
+        models:
+          your_model_name: Your Model Name
+          
+          namespace:
+            namespaced_model_name: Your Namespaced Model Name
+
+## Personalization
+Feel free to modify the fololwing files to change layouts and text :
+- public/stylesheets/acts_as_monitor.css
+- config/locales/act_as_monitor.it.yml
+
+If you need a deeper personalization you can try to overload app/views/acts_as_monitor/monitors/show.html.erb
+conaining the page template for the error/warning list
 
 ## Contributing
 
