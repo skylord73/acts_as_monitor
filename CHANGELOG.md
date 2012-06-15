@@ -1,4 +1,7 @@
-0.1.0 ToDo
+0.1.1 (June 15, 2012)
+- BugFixing
+
+0.1.0 (June 15, 2012)
 - BugFixing
 
 0.0.9 (May 28, 2012)

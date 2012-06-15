@@ -4568,3 +4568,25 @@ MonitorsController @monitor=#<TestClass id: 2, name: "Paperino">
 DEPRECATION WARNING: human_name has been deprecated, please use model_name.human instead. (called from __home_apps_rails_apps_gems_acts_as_monitor_app_views_acts_as_monitor_monitors_show_html_erb___260985504__617856208_0 at /home/apps/rails_apps/gems/acts_as_monitor/app/views/acts_as_monitor/monitors/show.html.erb:3)
 Rendered /home/apps/rails_apps/gems/acts_as_monitor/app/views/acts_as_monitor/monitors/show.html.erb (3.2ms)
 Completed 200 OK in 33ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/" for 10.1.1.132 at Fri Jun 15 17:17:28 +0200 2012
+  Processing by HomesController#index as HTML
+  [1m[36mTestClass Load (1.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+Rendered homes/index.html.erb within layouts/application (48.6ms)
+Completed 200 OK in 56ms (Views: 54.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/acts_as_monitor/monitors/1.js?class_name=TestClass" for 10.1.1.132 at Fri Jun 15 17:17:32 +0200 2012
+  Processing by ActsAsMonitor::MonitorsController#show as JS
+  Parameters: {"class_name"=>"TestClass", "id"=>"1"}
+true
+  [1m[35mSQL (0.7ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes" WHERE "test_classes"."id" = 1 LIMIT 1[0m
+MonitorsController @monitor=#<TestClass id: 1, name: "Pippo">
+DEPRECATION WARNING: human_name has been deprecated, please use model_name.human instead. (called from __home_apps_rails_apps_gems_acts_as_monitor_app_views_acts_as_monitor_monitors_show_html_erb___260985504__617992358_0 at /home/apps/rails_apps/gems/acts_as_monitor/app/views/acts_as_monitor/monitors/show.html.erb:3)
+Rendered /home/apps/rails_apps/gems/acts_as_monitor/app/views/acts_as_monitor/monitors/show.html.erb (3.4ms)
+Completed 200 OK in 38ms (Views: 3.8ms | ActiveRecord: 0.9ms)

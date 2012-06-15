@@ -11,7 +11,8 @@ module ActsAsMonitorHelper
   end
 
   def monitor_tag_js()
-    content_tag(:div, "/#{root_path}", :id => 'acts_as_monitor_status_window', :style => "display: none;") +
+    path = root_path.to_s
+    content_tag(:div, path, :id => 'acts_as_monitor_status_window', :style => "display: none;") +
     javascript_include_tag("acts_as_monitor_javascript.js") + 
     stylesheet_link_tag('acts_as_monitor.css')
   end
