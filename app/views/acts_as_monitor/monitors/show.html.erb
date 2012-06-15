@@ -1,0 +1,26 @@
+<% if @monitor %>
+  <fieldset class='acts_as_monitor_status_window'>
+    <legend class='acts_as_monitor_status_window'><%= @monitor.class.human_name %></legend>
+    <% @status = @monitor.status %>
+    <% @li_scope = "acts_as_monitor.messages.#{@monitor.class.name.underscore.gsub('/','_')}"%>
+    <% unless @status[:error].blank? %>
+      <h3 class="acts_as_monitor_errors_title"><%=I18n.t(:errors, :scope => "acts_as_monitor.messages") %></h3>
+      <ul class="acts_as_monitor_list_errors">
+      <%@status[:error].each do |error| %>
+        <li class= "acts_as_monitor_list_errors"><%=I18n.t(error, :scope=> @li_scope, :default => error.to_s) %></li>
+      <% end %>
+      </ul>
+    <% end %>
+    <% unless @status[:warn].blank? %>
+      <h3 class="acts_as_monitor_warnings_title"><%=I18n.t(:warnings, :scope => "acts_as_monitor.messages") %></h3>
+      <ul class="acts_as_monitor_list_warnings">
+      <%@status[:warn].each do |warn| %>
+        <li class="acts_as_monitor_list_warnings"><%=I18n.t(warn, :scope=> @li_scope, :default => warn.to_s) %></li>
+      <% end %>
+      </ul>
+    <% end %>
+<% else %>
+  <p><%= I18n.t(:missing_method, :scope=> "acts_as_monitor.errors", :default => "Add acts_as_monitor to monitored Class") %></p>
+<% end %>
+
+

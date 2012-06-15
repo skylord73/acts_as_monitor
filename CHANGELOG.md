@@ -1,0 +1,11 @@
+0.1.0 ToDo
+- BugFixing
+
+0.0.9 (May 28, 2012)
+- Ajax to have warning and error list clicking on icon
+
+0.0.2 (May 23, 2012)
+- first working copy
+
+0.0.1 (May 23, 2012)
+- First deploy not working
