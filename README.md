@@ -57,7 +57,7 @@ You can now check the status of your model using the following code:
     
 You can query the status of youe model with:
 
-    User.status_flag_equals(:red)   #=> Array of users with :red status)
+    User.status_flag_equals(:red)   #=> Array of users with :red status
     
     User.status_flag_not_equals(:red) #=> Array of users with status not equlas to :red
 
