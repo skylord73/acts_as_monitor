@@ -55,6 +55,11 @@ You can now check the status of your model using the following code:
     @user.status_flag
     > :red
     
+You can query the status of youe model with:
+    User.status_flag_equals(:red)   #=> Array of users with :red status)
+    
+    User.status_flag_not_equals(:red) #=> Array of users with status not equlas to :red
+    
 You can use the monitor_tag helper to view a red/green/yellow rapresentation:
     #app/views/users/index.html.erb
     <%= monitor_tag_js %>     #Creates hidden div and load css and javascript

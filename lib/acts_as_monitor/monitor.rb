@@ -22,9 +22,6 @@ module ActsAsMonitor
       #     whatever you want that return true in an error condition
       #   end
       def acts_as_monitor(options={})
-        #~ cattr_accessor :xlsx_i18n, :xlsx_columns
-        #~ self.xlsx_i18n = options.delete(:i18n) || false
-        #~ self.xlsx_columns = options.delete(:columns) || self.column_names.map { |c| c = c.to_sym }
         extend ActsAsMonitor::Monitor::SingletonMethods
         include ActsAsMonitor::Monitor::InstanceMethods
       end
@@ -34,6 +31,15 @@ module ActsAsMonitor
     
     # Singleton methods for the mixin
     module SingletonMethods
+      #Return records with status_flag of the given symbol (:red, :green, :yellow)
+      def status_flag_equals(value)
+        select {|p| p.status_flag == value.to_sym}
+      end
+      
+      #Return records with status flag not equals to given symbol (:red, :green, :yellow)
+      def status_flag_not_equals(value)
+        select {|p| !p.status_flag == value.to_sym}
+      end
     end
     
     #Instance methods for the mixin

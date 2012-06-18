@@ -1,3 +1,6 @@
+0.1.2 (June 18, 2012)
+- Added status_flag_equals and status_flag_not_equals class methods
+
 0.1.1 (June 15, 2012)
 - BugFixing
 
