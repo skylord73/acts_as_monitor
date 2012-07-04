@@ -68,7 +68,7 @@ You can use the monitor_tag helper to view a red/green/yellow rapresentation:
     ...
     <%= monitor_tag(@user) %>
 
-Clicking the icon you'll receive via Ajax the full error/warning list
+Clicking the icon you'll receive, via Ajax, the full error/warning list
 
 ## Internationalization
 You can localize the output modifing the acts_as_monitor.it.yml, or cloning for the language you prefear.
