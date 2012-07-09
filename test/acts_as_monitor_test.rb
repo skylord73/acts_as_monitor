@@ -47,7 +47,7 @@ class ActsAsMonitorTest < ActiveSupport::TestCase
     TestClass.create(:name => :red)
     TestClass.create(:name => :green)
     TestClass.create(:name => :yellow)
-    assert_equal ["red", "yellow",  TestClass.status_flag_not_equals(:green).map {|i| i.name}, "Error: green #{TestClass.status_flag_not_equals(:green).inspect}"
+    assert_equal ["red", "yellow"],  TestClass.status_flag_not_equals(:green).map {|i| i.name}, "Error: green #{TestClass.status_flag_not_equals(:green).inspect}"
     assert_equal "red",  TestClass.status_flag_not_equals(:red).first.name, "Error: green"
     assert_equal "yellow",  TestClass.status_flag_not_equals(:yellow).first.name, "Error: green"
   end
