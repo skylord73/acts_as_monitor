@@ -37,9 +37,9 @@ class ActsAsMonitorTest < ActiveSupport::TestCase
     TestClass.create(:name => :red)
     TestClass.create(:name => :green)
     TestClass.create(:name => :yellow)
-    assert_equal "green",  @test_class.status_flag_equals(:green).first.name, "Error: green"
-    assert_equal "red",  @test_class.status_flag_equals(:red).first.name, "Error: green"
-    assert_equal "yellow",  @test_class.status_flag_equals(:yellow).first.name, "Error: green"
+    assert_equal "green",  TestClass.status_flag_equals(:green).first.name, "Error: green"
+    assert_equal "red",  TestClass.status_flag_equals(:red).first.name, "Error: green"
+    assert_equal "yellow",  TestClass.status_flag_equals(:yellow).first.name, "Error: green"
   end
   
   test "Status_not_equals " do
@@ -47,9 +47,9 @@ class ActsAsMonitorTest < ActiveSupport::TestCase
     TestClass.create(:name => :red)
     TestClass.create(:name => :green)
     TestClass.create(:name => :yellow)
-    assert_equal "green",  @test_class.status_flag_not_equals(:green).first.name, "Error: green #{status_flag_not_equals(:green)}"
-    assert_equal "red",  @test_class.status_flag_not_equals(:red).first.name, "Error: green"
-    assert_equal "yellow",  @test_class.status_flag_not_equals(:yellow).first.name, "Error: green"
+    assert_equal "green",  TestClass.status_flag_not_equals(:green).first.name, "Error: green #{status_flag_not_equals(:green)}"
+    assert_equal "red",  TestClass.status_flag_not_equals(:red).first.name, "Error: green"
+    assert_equal "yellow",  TestClass.status_flag_not_equals(:yellow).first.name, "Error: green"
   end
   
 end
