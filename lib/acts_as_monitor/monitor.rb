@@ -53,7 +53,7 @@ module ActsAsMonitor
         out = {:warn => [], :error => []}
         methods = self.private_methods
         methods += self.methods
-        methods.map!{|m| m.match(search) }.compact
+        methods = methods.map{|m| m.match(search) }.compact
         methods.each do |method|
           out[method[1].to_sym] << method[0].gsub("?","").to_sym if send(method[0])
         end
