@@ -38,7 +38,7 @@ module ActsAsMonitor
       
       #Return records with status flag not equals to given symbol (:red, :green, :yellow)
       def status_flag_not_equals(value)
-        select {|p| !p.status_flag == value.to_sym}
+        select {|p| p.status_flag != value.to_sym}
       end
     end
     
