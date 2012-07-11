@@ -186,3 +186,745 @@ Migrating to AddTestTables (20120523110000)
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
   [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
 Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.5ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.7ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.8ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.4ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.8ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('bo')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('bo')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('bo')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.4ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('bo')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.4ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('bo')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.6ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('bo')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.4ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.5ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('bo')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.4ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('bo')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.6ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.4ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('bo')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.4ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.5ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.4ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.4ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.5ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.5ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.4ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.4ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.4ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.5ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (0.9ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.4ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.4ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mAREL (0.2ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mAREL (0.2ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.2ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "test_classes" WHERE 1=1[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "test_classes" WHERE 1=1[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.4ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "test_classes" WHERE 1=1[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[36mSQL (1.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.2ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "test_classes" WHERE 1=1[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[36mSQL (1.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.4ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to AddTestTables (20120523110000)
+  [1m[35mAREL (0.3ms)[0m  DELETE FROM "test_classes" WHERE 1=1
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('red')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('green')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('yellow')[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.3ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.3ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mAREL (0.2ms)[0m  [1mDELETE FROM "test_classes" WHERE 1=1[0m
+  [1m[35mAREL (0.3ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('red')
+  [1m[36mAREL (0.1ms)[0m  [1mINSERT INTO "test_classes" ("name") VALUES ('green')[0m
+  [1m[35mAREL (0.1ms)[0m  INSERT INTO "test_classes" ("name") VALUES ('yellow')
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m
+  [1m[35mTestClass Load (0.2ms)[0m  SELECT "test_classes".* FROM "test_classes"
+  [1m[36mTestClass Load (0.2ms)[0m  [1mSELECT "test_classes".* FROM "test_classes"[0m

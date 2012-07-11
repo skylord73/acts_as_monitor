@@ -7,6 +7,9 @@ class TestClass < ActiveRecord::Base
     @error ||= false
   end
   
+  def warn_pubblico?
+    true if name == "yellow"
+  end
   
   private
   
@@ -16,6 +19,14 @@ class TestClass < ActiveRecord::Base
   
   def error_test?
     @error
+  end
+
+  def warn_yellow?
+    true if name == "yellow"
+  end
+
+  def error_red?
+    true if name == "red"
   end
 
   def warn_paperino?
@@ -29,5 +40,6 @@ class TestClass < ActiveRecord::Base
   def error_id?
     return true if self.id == 1
   end
+
   
 end
