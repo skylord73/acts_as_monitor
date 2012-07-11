@@ -1,6 +1,8 @@
 1.0.1 (July 9, 2012
 - update version number
 - fixed path problem
+- fixed status_flag_not_equals 
+- Added supporto to warn_*? and error_*? public methods
 
 0.1.2 (June 18, 2012)
 - Added status_flag_equals and status_flag_not_equals class methods
