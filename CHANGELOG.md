@@ -1,3 +1,6 @@
+1.0.2 (July 13, 2012)
+- update to rails 3.0.14
+
 1.0.1 (July 9, 2012
 - update version number
 - fixed path problem
