@@ -1,8 +1,8 @@
 .acts_as_monitor_status_window{
   background-color: #F2F2F2;
-  border: solid black 1px;
+  border: solid black 2px;
   opacity: 0.9;
-  width: 150px;
+  width: 200px;
 }
 
 .acts_as_monitor_status_window legend{
