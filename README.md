@@ -72,7 +72,7 @@ Clicking the icon you'll receive, via Ajax, the full error/warning list
 
 ## Internationalization
 You can localize the output modifing the acts_as_monitor.it.yml, or cloning for the language you prefear.
-Name of models is retrived via human_name, so yuo have to localize the ActiveRecord to change names:
+Name of models is retrived via human_name, so you have to localize the ActiveRecord to change names:
     it:
       activerecord:
         models:
