@@ -1,0 +1,41 @@
+it:
+  acts_as_monitor:
+    icons:
+      red: acts_as_monitor_red.png
+      yellow: acts_as_monitor_yellow.png
+      green: acts_as_monitor_green.png
+      alt_image: "Clicca per visualizzare i dettagli"
+    errors:
+      missing_method: "Aggiungi acts_as_monitor alla classe da monitorare"
+    messages:
+      errors: Errori
+      warnings: Avvisi
+      magazzino_document:
+        warn_attach: "Allegato mancante"
+        warn_body: "Una delle righe bolle contiene un Errore"
+        error_body: "Una delle righe bolla contiene un Avviso"
+      magazzino_product:
+        warn_coerent: "Prodotto non coerente nei magazzino collegati"
+      magazzino_documentbody:
+        error_sqta: "La quantità con segno è errata!"
+      interventi_activity:
+        warn_missing_attach: "Allegato mancante"
+        warn_missing_rapp_1: "Manca il Rapportino Nest2!"
+        warn_missing_rapp_2: "Manca il Rapportino cliente!"
+        warn_missing_photo_1: "Manca la Foto prima!"
+        warn_missing_photo_2: "Manca la Foto dopo!"
+        warn_missing_quality: "Manca la scheda qualità!"
+        warn_missing_supplier_billing: "BEF non presente in alcune righe"
+        warn_missing_customer_billing: "Consuntivazione non presente in alcune righe"
+      admin_attachment:
+        error_missing: "Allegato mancante sul server!"
+      consuntivazioni_billing:
+        warn_checks: "Controllo richiesto ma non presente!"
+        warn_order: "Consuntivazione non consolidata!"
+        error_order: "Consuntivazione consolidata senza Ordine!"
+      consuntivazioni_billing_body:
+        warn_missing_check: "Intervento non trovato nel controllo!"
+      produzione_order:
+        warn_expirating: "Ordine in scadenza"
+        error_expirated: "Ordine scaduto!"
+      
